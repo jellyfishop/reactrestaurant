@@ -1,0 +1,107 @@
+react
+---------
+
+npx create-react-app (appname)
+
+npm start
+
+building blocks of react
+------------------------
+html
+css
+js
+
+angular                        |                   react
+---------                      |                 ---------
+-framework of js               |              -library of js
+-real DOM                      |              -virtual DOM
+
+
+advantages of react
+--------------------
+
+-fast because react uses virtual DOM
+-reusable components
+-jsx (javascript xml)
+
+components in react
+--------------------
+
+1,class based
+2,function based
+
+
+statefull components
+stateless components
+
+state- it is an object to store datas inside a component in react
+
+useState - react
+
+props
+-----
+to share datas from parent to child component
+
+api call in js
+------------------
+ajax -asynchronous javascript and xml
+
+-XmlHttp
+-fetch
+-asynch await
+
+first working hook of  component
+--------------------------------
+useEffect - react
+
+redirection/routing in react
+-----------------------------
+react-router-dom - library used for routing
+
+Browser router - wrap main component inside brwser router component
+Route         - wrap the component inside router which need redirection
+Routes         - wrap all the router if we set more than one component paths
+
+Link - a component in react-router-dom used for redirection
+
+useParams - hook used to access params
+
+REDUX
+------
+when coupling increases in components there is a chance for props drilling
+
+coupling- data saring from parent to child
+props drilling - at the time of data sharing parent o child if any 
+                 intermediate component have any errors then the data will stuck there
+
+
+redux - state management technology - we need to reduce coupling and make all component independent to avoid props drilling
+
+store - is a file used to store data in redux . all components can acces the data inside store 
+
+libraries for redux
+-------------------
+1,redux
+2,redux-react
+3,redux-thunk
+
+npm i redux react-redux redux-thunk
+
+
+create store - method in redux used to create a store 
+
+in redux middleware used to make redux as asynchronous (actually redux is synchronous so all synchronous functions will behave as synchronous)
+
+thunk - used to create middleware
+
+http methods in react
+----------------------
+axios  - library used to api call
+
+useDispatch - hook used to dispatch a function in a component
+
+useSelector - hook used to data aceess data from component
+
+
+
+
